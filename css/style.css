@@ -47,6 +47,57 @@ body, html{
     margin-bottom: 8%;
 }
 
+#SubtitleContact{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+
+#ContactSubmit{
+    margin: 6%;
+    margin-bottom: 1%;
+    outline: none;
+    border-style: hidden;
+    color: white;
+    background-image: linear-gradient(to right,#005499 , #6900ba);
+    border-radius: 2px;
+    width: 200px;
+    height: 40px;
+}
+
+#ContactName{
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #373737;
+    color: white;
+    background-color: #272727;
+    border-radius: 10px;
+    width: 408px;
+    height: 25px;
+    font-size: larger;
+}
+
+#ContactMessage{
+    font-size: 140%;
+    outline: none;
+    border-width: 2px;
+    border-color: #373737;
+    color: white;
+    background-color: #272727;
+    border-radius: 10px;
+    resize: none;
+    margin: 0px;
+    width: 408px;
+    height: 185px;
+}
+
+#directcontact{
+    color: #474747;
+}
+
 .namenotice{
     position: absolute;
     top: 46%;

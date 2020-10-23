@@ -13,11 +13,22 @@
     </style>
 </head>
 <body>
-    <img id="creplogo" src="./img/favicon.ico">
+    <a href="./index.html">
+        <img id="creplogo" src="./img/favicon.ico">
+    </a>
     <div class="maincontainercontact">
-        <h1 id="TitleContA">Redirecting</h1>
-        <p id="SubtitleContA">You are being redirected</p>
-        <meta http-equiv="refresh" content="1; URL=https://docs.google.com/forms/d/1d1MQmvjnG3MxwvcEo_ovtObCZnq-emKkiqZrZPa_F7U/viewform" />
+        <form action="mailto:duskars@protonmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailTestForm">
+            <p id="SubtitleContact">Name:</p>
+            <input id="ContactName" type="text" size="24" name="VisitorName">
+            <p id="SubtitleContact">Message:</p>
+            <textarea name="VisitorComment" rows="4" cols="20" id="ContactMessage"></textarea>
+            <br>
+            <input id="ContactSubmit" type="submit" value="Submit">
+        </form>
+        <p id="directcontact">Or contact us directly at: duskars@protonmail.com</p>
     </div>
 </body>
 <footer class="footer">
