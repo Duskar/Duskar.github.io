@@ -5,13 +5,13 @@ body, html{
 
 .maincontainer{
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
     background-color: #2b2b2b;
     text-align: center;
-    /* width: 60%; */
+    width: 50%;
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 75px;
@@ -58,11 +58,11 @@ body, html{
 #ContactSubmit{
     margin: 6%;
     margin-bottom: 1%;
-    outline: none;
-    border-style: hidden;
+    outline-style: none;
+    border-style: none;
     color: white;
-    background-image: linear-gradient(to right,#005499 , #6900ba);
-    border-radius: 2px;
+    background-image: linear-gradient(to top right,#005499 , #6900ba);
+    border-radius: 15px;
     width: 200px;
     height: 40px;
 }
@@ -100,25 +100,12 @@ body, html{
 
 .namenotice{
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to right,#005499 , #6900ba);
+    background-image: linear-gradient(to top right, #ff0000, #7200ff); /* #e00d0d, #6900ba */
     text-align: center;
-    /* width: 60%; */
-    padding-left: 2%;
-    padding-right: 2%;
-    border-radius: 75px;
-}
-
-.prerellink{
-    position: absolute;
-    top: 76%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #1f1f1f;
-    text-align: center;
-    /* width: 60%; */
+    width: 50%;
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 75px;
@@ -129,17 +116,6 @@ body, html{
     margin: 40px;
     margin-bottom: -30px;
 }
-
-.prerellink #subSubtitle{
-    white-space: nowrap;
-}
-
-.prerellink #subSubtitleLink{
-    display: block;
-    white-space: nowrap;
-    margin: 16px;
-}
-
 .maincontainer #Title{
     margin: 40px;
 }
